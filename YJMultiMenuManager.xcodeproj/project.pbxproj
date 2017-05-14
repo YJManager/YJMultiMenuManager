@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63759E2A1EC6B8E0001B0303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E291EC6B8E0001B0303 /* main.m */; };
+		63759E2D1EC6B8E0001B0303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E2C1EC6B8E0001B0303 /* AppDelegate.m */; };
+		63759E331EC6B8E0001B0303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63759E311EC6B8E0001B0303 /* Main.storyboard */; };
+		63759E351EC6B8E0001B0303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63759E341EC6B8E0001B0303 /* Assets.xcassets */; };
+		63759E381EC6B8E0001B0303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63759E361EC6B8E0001B0303 /* LaunchScreen.storyboard */; };
+		63759E421EC6B978001B0303 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E411EC6B978001B0303 /* MainViewController.m */; };
+		63759E451EC6BA54001B0303 /* YJContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E441EC6BA54001B0303 /* YJContainerTableView.m */; };
+		63759E491EC6BEE3001B0303 /* YJMultiMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E481EC6BEE3001B0303 /* YJMultiMenuView.m */; };
+		63759E4C1EC6D62D001B0303 /* YJRootListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E4B1EC6D62D001B0303 /* YJRootListViewController.m */; };
+		63759E4F1EC6D64F001B0303 /* YJTableListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63759E4E1EC6D64F001B0303 /* YJTableListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6361DEA11EC84F0E00874956 /* YJMultiMenuViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMultiMenuViewConfig.h; sourceTree = "<group>"; };
+		63759E251EC6B8E0001B0303 /* YJMultiMenuManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJMultiMenuManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63759E291EC6B8E0001B0303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63759E2B1EC6B8E0001B0303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63759E2C1EC6B8E0001B0303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63759E321EC6B8E0001B0303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63759E341EC6B8E0001B0303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63759E371EC6B8E0001B0303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63759E391EC6B8E0001B0303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63759E401EC6B978001B0303 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		63759E411EC6B978001B0303 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		63759E431EC6BA54001B0303 /* YJContainerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJContainerTableView.h; sourceTree = "<group>"; };
+		63759E441EC6BA54001B0303 /* YJContainerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJContainerTableView.m; sourceTree = "<group>"; };
+		63759E461EC6BB9A001B0303 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63759E471EC6BEE3001B0303 /* YJMultiMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMultiMenuView.h; sourceTree = "<group>"; };
+		63759E481EC6BEE3001B0303 /* YJMultiMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMultiMenuView.m; sourceTree = "<group>"; };
+		63759E4A1EC6D62D001B0303 /* YJRootListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRootListViewController.h; sourceTree = "<group>"; };
+		63759E4B1EC6D62D001B0303 /* YJRootListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRootListViewController.m; sourceTree = "<group>"; };
+		63759E4D1EC6D64F001B0303 /* YJTableListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTableListViewController.h; sourceTree = "<group>"; };
+		63759E4E1EC6D64F001B0303 /* YJTableListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTableListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63759E221EC6B8E0001B0303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63759E1C1EC6B8E0001B0303 = {
+			isa = PBXGroup;
+			children = (
+				63759E271EC6B8E0001B0303 /* YJMultiMenuManager */,
+				63759E261EC6B8E0001B0303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63759E261EC6B8E0001B0303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63759E251EC6B8E0001B0303 /* YJMultiMenuManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63759E271EC6B8E0001B0303 /* YJMultiMenuManager */ = {
+			isa = PBXGroup;
+			children = (
+				63759E3F1EC6B914001B0303 /* YJMultiMenuView */,
+				63759E2B1EC6B8E0001B0303 /* AppDelegate.h */,
+				63759E2C1EC6B8E0001B0303 /* AppDelegate.m */,
+				63759E401EC6B978001B0303 /* MainViewController.h */,
+				63759E411EC6B978001B0303 /* MainViewController.m */,
+				63759E311EC6B8E0001B0303 /* Main.storyboard */,
+				63759E341EC6B8E0001B0303 /* Assets.xcassets */,
+				63759E361EC6B8E0001B0303 /* LaunchScreen.storyboard */,
+				63759E391EC6B8E0001B0303 /* Info.plist */,
+				63759E281EC6B8E0001B0303 /* Supporting Files */,
+			);
+			path = YJMultiMenuManager;
+			sourceTree = "<group>";
+		};
+		63759E281EC6B8E0001B0303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63759E291EC6B8E0001B0303 /* main.m */,
+				63759E461EC6BB9A001B0303 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63759E3F1EC6B914001B0303 /* YJMultiMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				63759E431EC6BA54001B0303 /* YJContainerTableView.h */,
+				63759E441EC6BA54001B0303 /* YJContainerTableView.m */,
+				63759E471EC6BEE3001B0303 /* YJMultiMenuView.h */,
+				63759E481EC6BEE3001B0303 /* YJMultiMenuView.m */,
+				63759E4A1EC6D62D001B0303 /* YJRootListViewController.h */,
+				63759E4B1EC6D62D001B0303 /* YJRootListViewController.m */,
+				63759E4D1EC6D64F001B0303 /* YJTableListViewController.h */,
+				63759E4E1EC6D64F001B0303 /* YJTableListViewController.m */,
+				6361DEA11EC84F0E00874956 /* YJMultiMenuViewConfig.h */,
+			);
+			path = YJMultiMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63759E241EC6B8E0001B0303 /* YJMultiMenuManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63759E3C1EC6B8E0001B0303 /* Build configuration list for PBXNativeTarget "YJMultiMenuManager" */;
+			buildPhases = (
+				63759E211EC6B8E0001B0303 /* Sources */,
+				63759E221EC6B8E0001B0303 /* Frameworks */,
+				63759E231EC6B8E0001B0303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJMultiMenuManager;
+			productName = YJMultiMenuManager;
+			productReference = 63759E251EC6B8E0001B0303 /* YJMultiMenuManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63759E1D1EC6B8E0001B0303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YJHou;
+				TargetAttributes = {
+					63759E241EC6B8E0001B0303 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 33JZ8ZWGJN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63759E201EC6B8E0001B0303 /* Build configuration list for PBXProject "YJMultiMenuManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63759E1C1EC6B8E0001B0303;
+			productRefGroup = 63759E261EC6B8E0001B0303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63759E241EC6B8E0001B0303 /* YJMultiMenuManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63759E231EC6B8E0001B0303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63759E381EC6B8E0001B0303 /* LaunchScreen.storyboard in Resources */,
+				63759E351EC6B8E0001B0303 /* Assets.xcassets in Resources */,
+				63759E331EC6B8E0001B0303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63759E211EC6B8E0001B0303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63759E4F1EC6D64F001B0303 /* YJTableListViewController.m in Sources */,
+				63759E2D1EC6B8E0001B0303 /* AppDelegate.m in Sources */,
+				63759E421EC6B978001B0303 /* MainViewController.m in Sources */,
+				63759E451EC6BA54001B0303 /* YJContainerTableView.m in Sources */,
+				63759E2A1EC6B8E0001B0303 /* main.m in Sources */,
+				63759E491EC6BEE3001B0303 /* YJMultiMenuView.m in Sources */,
+				63759E4C1EC6D62D001B0303 /* YJRootListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63759E311EC6B8E0001B0303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63759E321EC6B8E0001B0303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63759E361EC6B8E0001B0303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63759E371EC6B8E0001B0303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63759E3A1EC6B8E0001B0303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63759E3B1EC6B8E0001B0303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63759E3D1EC6B8E0001B0303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33JZ8ZWGJN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJMultiMenuManager/PrefixHeader.pch;
+				INFOPLIST_FILE = YJMultiMenuManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		63759E3E1EC6B8E0001B0303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33JZ8ZWGJN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJMultiMenuManager/PrefixHeader.pch;
+				INFOPLIST_FILE = YJMultiMenuManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63759E201EC6B8E0001B0303 /* Build configuration list for PBXProject "YJMultiMenuManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63759E3A1EC6B8E0001B0303 /* Debug */,
+				63759E3B1EC6B8E0001B0303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63759E3C1EC6B8E0001B0303 /* Build configuration list for PBXNativeTarget "YJMultiMenuManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63759E3D1EC6B8E0001B0303 /* Debug */,
+				63759E3E1EC6B8E0001B0303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63759E1D1EC6B8E0001B0303 /* Project object */;
+}
